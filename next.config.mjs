@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
+  images: {
+    domains: ["www.themealdb.com"], // ঠিক আছে, https লাগবে না
+  },
 };
 
 export default nextConfig;
